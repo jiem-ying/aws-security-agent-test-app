@@ -1,0 +1,18 @@
+{
+  "Comment": "AWS Security Agent domain verification TXT record",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "_aws_securityagent-challenge.pentest.cfn-jiemying-test.com",
+        "Type": "TXT",
+        "TTL": 300,
+        "ResourceRecords": [
+          {
+            "Value": "\"aws-securityagent-domain-verification=AMyV3kKgTbb2h7m4YA6oug\""
+          }
+        ]
+      }
+    }
+  ]
+}
