@@ -1,0 +1,17 @@
+{
+  "Comment": "Create subdomain for AWS Security Agent pen-test app",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "pentest.cfn-jiemying-test.com",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "Z1GM3OXH4ZPM65",
+          "DNSName": "aws-security-agent-test-app-alb-58658779.ap-southeast-2.elb.amazonaws.com",
+          "EvaluateTargetHealth": true
+        }
+      }
+    }
+  ]
+}
