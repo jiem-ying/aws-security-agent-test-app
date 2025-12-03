@@ -12,8 +12,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Configuration
-AWS_REGION="${AWS_REGION:-us-east-1}"
-PROJECT_NAME="sample-pentest-app"
+AWS_REGION="${AWS_REGION:-ap-southeast-2}"
+PROJECT_NAME="aws-security-agent-test-app"
 
 echo -e "${GREEN}=== Sample Pen-Test Application Deployment ===${NC}"
 echo ""
